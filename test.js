@@ -230,6 +230,161 @@ it('Should return \'thirty seven\' when 37 given', () => {
 
   assert.equal(readable, 'thirty seven');
 });
+it('Should return \'twelve\' when 12 given', () => {
+  const readable = toReadable(12);
+
+  assert.equal(readable, 'twelve');
+});
+
+it('Should return \'thirteen\' when 13 given', () => {
+  const readable = toReadable(13);
+
+  assert.equal(readable, 'thirteen');
+});
+
+it('Should return \'fourteen\' when 14 given', () => {
+  const readable = toReadable(14);
+
+  assert.equal(readable, 'fourteen');
+});
+
+it('Should return \'fifteen\' when 15 given', () => {
+  const readable = toReadable(15);
+
+  assert.equal(readable, 'fifteen');
+});
+
+it('Should return \'sixteen\' when 16 given', () => {
+  const readable = toReadable(16);
+
+  assert.equal(readable, 'sixteen');
+});
+
+it('Should return \'seventeen\' when 17 given', () => {
+  const readable = toReadable(17);
+
+  assert.equal(readable, 'seventeen');
+});
+
+it('Should return \'eighteen\' when 18 given', () => {
+  const readable = toReadable(18);
+
+  assert.equal(readable, 'eighteen');
+});
+
+it('Should return \'nineteen\' when 19 given', () => {
+  const readable = toReadable(19);
+
+  assert.equal(readable, 'nineteen');
+});
+
+it('Should return \'twenty\' when 20 given', () => {
+  const readable = toReadable(20);
+
+  assert.equal(readable, 'twenty');
+});
+
+it('Should return \'twenty one\' when 21 given', () => {
+  const readable = toReadable(21);
+
+  assert.equal(readable, 'twenty one');
+});
+
+it('Should return \'twenty two\' when 22 given', () => {
+  const readable = toReadable(22);
+
+  assert.equal(readable, 'twenty two');
+});
+
+it('Should return \'twenty three\' when 23 given', () => {
+  const readable = toReadable(23);
+
+  assert.equal(readable, 'twenty three');
+});
+
+it('Should return \'twenty four\' when 24 given', () => {
+  const readable = toReadable(24);
+
+  assert.equal(readable, 'twenty four');
+});
+
+it('Should return \'twenty five\' when 25 given', () => {
+  const readable = toReadable(25);
+
+  assert.equal(readable, 'twenty five');
+});
+
+it('Should return \'twenty six\' when 26 given', () => {
+  const readable = toReadable(26);
+
+  assert.equal(readable, 'twenty six');
+});
+
+it('Should return \'twenty seven\' when 27 given', () => {
+  const readable = toReadable(27);
+
+  assert.equal(readable, 'twenty seven');
+});
+
+it('Should return \'twenty eight\' when 28 given', () => {
+  const readable = toReadable(28);
+
+  assert.equal(readable, 'twenty eight');
+});
+
+it('Should return \'twenty nine\' when 29 given', () => {
+  const readable = toReadable(29);
+
+  assert.equal(readable, 'twenty nine');
+});
+
+it('Should return \'thirty\' when 30 given', () => {
+  const readable = toReadable(30);
+
+  assert.equal(readable, 'thirty');
+});
+
+it('Should return \'thirty one\' when 31 given', () => {
+  const readable = toReadable(31);
+
+  assert.equal(readable, 'thirty one');
+});
+
+it('Should return \'thirty two\' when 32 given', () => {
+  const readable = toReadable(32);
+
+  assert.equal(readable, 'thirty two');
+});
+
+it('Should return \'thirty three\' when 33 given', () => {
+  const readable = toReadable(33);
+
+  assert.equal(readable, 'thirty three');
+});
+
+it('Should return \'thirty four\' when 34 given', () => {
+  const readable = toReadable(34);
+
+  assert.equal(readable, 'thirty four');
+});
+
+it('Should return \'thirty five\' when 35 given', () => {
+  const readable = toReadable(35);
+
+  assert.equal(readable, 'thirty five');
+});
+
+it('Should return \'thirty six\' when 36 given', () => {
+  const readable = toReadable(36);
+
+  assert.equal(readable, 'thirty six');
+});
+
+it('Should return \'thirty seven\' when 37 given', () => {
+  const readable = toReadable(37);
+
+  assert.equal(readable, 'thirty seven');
+});
 
 it('Should return \'thirty eight\' when 38 given', () => {
   const readable = toReadable(38);
